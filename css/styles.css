@@ -1,0 +1,159 @@
+body{
+    font-family: 'Montserrat';
+}
+#title, #cta{
+    background-color: #ff4c68;
+    color: #ffffff;
+}
+#title img{
+    width: 30%;
+    padding-top: 25px;
+    padding-left: 10%;
+    transform: rotate(17deg);
+    position: absolute;
+    top: 120px;
+    right: 20%;
+}
+
+h1,h2,h3{
+    font-family: 'Montserrat';
+    font-weight: 900;
+}
+h1{
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+h2{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+/* Navigation Bar */
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+}
+
+/* Download Button */
+
+.download-button{
+    margin: 5% 3% 5% 0%;
+}
+
+/* Features Section */
+
+#features{
+    position: relative;
+    background-color: #ffffff;
+    padding: 7% 15%; 
+}
+#features p{
+    color: #8f8f8f;
+    letter-spacing: 2px;
+}
+.icon{
+    margin-bottom: 1rem;
+    color:#ef8172;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+
+/* Testominial Sections */
+
+#testimonials, #press{
+    text-align: center;
+    background-color: #ef8172;
+    color: #ffffff;
+}
+.testimonial-image{
+    width: 15%;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+#press{
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    padding: 20px 20px 50px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* Pricing Section */
+
+#pricing{
+    padding: 80px;
+    text-align: center;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+/* Call to action */
+#cta{
+    padding: 7% 15%;
+    text-align: center;
+}
+#cta h3{
+    color: white;
+    padding-bottom: 25px;
+}
+.logo{
+    padding-right: 10px;
+}
+.button{
+    margin: 5px;
+}
+
+/* Footer Section*/
+
+#footer{
+    background-color: #ffffff;
+    text-align: center;
+    padding: 5% 6%;
+    color: #8f8f8f;
+}
+.fa-brands{
+    padding: 15px;
+}
+.fa-brands:hover{
+    color: black;
+}
+.gap{
+    padding-left: 13px;
+}
+
+ /* Media Query  */
+ @media (max-width: 1277px){
+    #title img{
+        position: static;
+        width: 6cm;
+        transform: rotate(0);
+    }
+    #title{
+        text-align: center;
+    }
+
+}
